@@ -5,7 +5,7 @@ var methodOverride = require('method-override');
 var express = require('express');
 
 
-class TokenposNodeServer {
+class LwNodeServer {
     constructor(options) {
         this.port = options.port ? options.port : 12000;
         this.defaultRouter = options.defaultRouter ? options.defaultRouter : '/service/status';
@@ -96,4 +96,4 @@ class TokenposNodeServer {
 
 }
 
-module.exports = TokenposNodeServer;
+module.exports = LwNodeServer;
